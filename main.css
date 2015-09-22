@@ -1,0 +1,75 @@
+#header {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+.headerItem {
+	margin: 10px
+}
+#buttons {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-color: #2e75b6;
+	padding: 10px
+}
+.ssprButton {
+	margin: 10px;
+	padding: 10px;
+	width: auto;
+	height: 190px;
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-top-right-radius: 32px;
+	border-bottom-left-radius: 32px;
+}
+.ssprButton:hover, .ssprButton:active, .ssprButton:focus, .ssprButton:visited {
+	text-decoration: none;
+	color: #fff
+}
+.ssprButton > div {
+	margin: auto;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 150%
+}
+.buttonContainer > div {
+	color: #fff;
+	text-align: center
+}
+.buttonContainer {
+	width: 340px
+}
+#button1 {
+	background-color: #f4b183
+}
+#button2 {
+	background-color: #a9d18e
+}
+#button3 {
+	background-color: #ffd966
+}
+#disclaimer > h4 {
+	text-align: center
+}
